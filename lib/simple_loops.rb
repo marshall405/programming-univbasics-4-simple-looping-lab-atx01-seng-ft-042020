@@ -23,3 +23,12 @@ def output_array(array)
    counter += 1
  end
 end
+
+def return_string_array(array)
+  counter = 0
+  new_array = []
+  while array[counter] do
+    new_array << array[counter].to_s 
+  end
+  new_array
+end
